@@ -26,10 +26,10 @@ const Auth = () => {
         <div className="bg-card/80 backdrop-blur-xl rounded-3xl shadow-overlay p-8 space-y-6">
           {/* Logo */}
           <div className="text-center space-y-2">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-3 bg-amber-50">
-              <div className="w-2 h-2 rounded-full bg-primary animate-pulse-soft" />
-              
-            </div>
+            
+
+
+            
             <h1 className="text-2xl font-bold text-foreground">
               KCET Admission Intelligence
             </h1>
