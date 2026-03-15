@@ -13,7 +13,7 @@ const Profile = () => {
   const [rank, setRank] = useState("2000");
   const [category, setCategory] = useState("General");
   const [region, setRegion] = useState("Bengaluru");
-  const [budget, setBudget] = useState(BUDGET_RANGES[1].label);
+  const [budget, setBudget] = useState<string>(BUDGET_RANGES[1].label);
   const [branches, setBranches] = useState<string[]>(["Computer Science & Engineering"]);
 
   const handleSave = () => {
